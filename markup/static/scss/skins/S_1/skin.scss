@@ -1,0 +1,109 @@
+body {
+    background-color: $primary-fill;
+    font-weight: $font-weight;
+    color: $primary-text;
+}
+
+html {
+    height: 100%;
+    font-size: $font-size-xs;
+    @include respond-from(md) {
+        font-size: $font-size;
+    }
+
+}
+
+//Footer bottom
+.w-outer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.w-inner {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+//Footer bottom END
+
+.colored-text {
+    color: #0C8543;
+}
+
+
+//gap
+
+.w-gap {
+    margin-top: 30px;
+
+    @include respond-from(md) {
+        margin-top: 40px;
+    }
+}
+
+.w-gap-sm {
+    margin-top: 24px;
+
+    @include respond-from(md) {
+        margin-top: 55px;
+    }
+}
+
+.w-gap-md {
+    margin-top: 25px;
+
+    @include respond-from(md) {
+        margin-top: 30px;
+    }
+}
+
+.w-gap-lg {
+    margin-top: 60px;
+
+    @include respond-from(sm) {
+        margin-top: 60px;
+    }
+
+    @include respond-from(md) {
+        margin-top: 134px;
+    }
+}
+
+.w-gap-xl {
+    margin-top: 60px;
+
+    @include respond-from(sm) {
+        margin-top: 80px;
+    }
+
+    @include respond-from(md) {
+        margin-top: 310px;
+    }
+}
+
+.hide-to-md {
+    display: none;
+
+    @include respond-from(md) {
+        display: block;
+    }
+
+}
+
+.text {
+    margin: 0;
+    padding: 35px 0;
+    @include respond-from(md) {
+        padding: 62px 0;
+        text-align: center;
+    }
+}
+
+.no-gutters {
+    @include respond-from(md) {
+        padding: 0!important;
+    }
+}

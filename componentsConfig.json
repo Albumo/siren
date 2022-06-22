@@ -1,0 +1,37 @@
+{
+  "component_header": {
+    "number": "S_1",
+    "name": "header"
+  },
+
+  "component_partner": {
+    "number": "S_1",
+    "name": "partner"
+  },
+
+  "component_cards": {
+    "number": "S_1",
+    "name": "cards"
+  },
+
+  "component_lifetime": {
+    "number": "S_1",
+    "name": "lifetime"
+  },
+
+  "component_utp": {
+    "number": "S_1",
+    "name": "utp"
+  },
+
+  "component_prices": {
+    "number": "S_1",
+    "name": "prices"
+  },
+
+
+  "component_footer": {
+    "number": "S_1",
+    "name": "footer"
+  }
+}

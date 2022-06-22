@@ -1,0 +1,62 @@
+.utp {
+
+  &__wrap {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 16px;
+    overflow: hidden;
+    background: #F3F9F6;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  &__itemImage {
+    margin-bottom: 20px;
+  }
+
+  &__itemText {
+    p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  @include respond-from(md) {
+    &__wrap {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    &__item {
+      padding: 30px 18px;
+    }
+
+    &__itemImage {
+      margin-bottom: 16px;
+      svg {
+        width: 70px;
+        height: 70px;
+      }
+    }
+
+    &__itemText {
+      p {
+        font-size: 21px;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+  }
+}
